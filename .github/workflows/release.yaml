@@ -3,8 +3,7 @@
 name: libs/infinity_emb - Release docker
 
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
 
 env:
   POETRY_VERSION: "1.8.4"
